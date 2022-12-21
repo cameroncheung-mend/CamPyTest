@@ -46,4 +46,4 @@ watchtower = "==1.0.6"
 zipp = "==3.4.1"
 
 [requires]
-python_version = "3.10"
+python_version = "3.8"
