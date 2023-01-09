@@ -19,6 +19,27 @@
     "enableRenovate": true,
     "workflowRules": {
       "enabled": true
+    },
+    "transitiveRemediation": true,
+    "packageRules": [
+      {
+        "matchUpdateTypes": [
+          "minor",
+          "patch",
+          "pin",
+          "digest"
+        ],
+        "automerge": true
+      },
+      {
+        "matchDepTypes": [
+          "devDependencies"
+        ],
+        "automerge": true
+      }
+    ],
+    "major": {
+      "dependencyDashboardApproval": true
     }
   }
 }
