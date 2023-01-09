@@ -21,7 +21,7 @@ certifi = "==2020.12.5"
 cffi = "==1.14.5"
 chardet = "==4.0.0"
 connexion2 = {extras = ["swagger-ui"],version = "==2.10.0"}
-GitPython = "==3.1.15"
+GitPython = "==3.1.30"
 gunicorn = "==20.0.2"
 idna = "==2.10"
 idna_ssl = "==1.1.0"
