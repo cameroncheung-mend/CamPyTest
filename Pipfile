@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 aiodns = "==3.0.0"
-aiohttp = "==3.8.0"
+aiohttp = "==3.8.3"
 aiokafka = "==0.7.2"
 app-common-python = "==0.2.3"
 apscheduler = "==3.7.0"
