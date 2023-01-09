@@ -17,6 +17,7 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
+    "gitLabIgnoreApprovals": true,
     "workflowRules": {
       "enabled": true
     },
